@@ -1,0 +1,24 @@
+{
+  "name": "sds-automotive-billing",
+  "version": "1.0.0",
+  "description": "Service and Spare Parts Management Software",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "SDS Automotive",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^31.7.7",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.sdsautomotive.billingapp",
+    "productName": "SDS Automotive Billing",
+    "win": {
+      "icon": "assets/icon.ico"
+    }
+  }
+}
